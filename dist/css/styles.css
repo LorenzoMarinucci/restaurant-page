@@ -1,66 +1,144 @@
 html {
   font-family: "Roboto", sans-serif;
+  background-image: url(../images/background.png);
+  background-size: cover;
 }
 
-#header {
-  border-bottom: 1px solid black;
-  position: fixed;
-  top: 0;
+body {
+  opacity: 1;
+}
+
+#logo {
+  font-family: "Damion";
+  font-size: 45px;
+  vertical-align: -8px;
   width: 100%;
+  text-align: center;
+  position: relative;
+  top: 5px;
+}
+
+#logo img {
+  width: 60px;
+  height: 50px;
+  display: inline-block;
 }
 
 #nav {
-  width: 290px;
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#nav li {
   display: inline-block;
-  float: left;
+  border-right: 2px solid black;
+  border-radius: 0px;
+  padding: 20px 60px;
 }
 
-ul {
-  list-style-type: none;
-  font-weight: bold;
-}
-
-li {
-  display: inline-block;
-  border-right: 1px solid black;
-  padding: 20px;
-  margin-left: -4px;
-}
-
-li:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+#nav li:hover {
+  color: brown;
   cursor: pointer;
+}
+
+#nav li:last-child {
+  border: 0px;
+}
+
+hr {
+  width: 80%;
+  background-color: black;
+  border: 1px solid black;
+}
+
+#footer {
+  width: 100%;
 }
 
 #socialMedia {
   display: inline-block;
-  position: relative;
 }
 
 #socialMedia img {
-  height: 30px;
-  width: 30px;
-  position: relative;
-  bottom: 12px;
   margin: 0 10px;
 }
 
-#icons {
-  display: inline-block;
+#socialMedia #twitter {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: 2px;
+  margin-left: 14px;
+}
+
+#instagram {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  top: 3px;
+}
+
+#github {
+  width: 33px;
+  height: 33px;
+  position: relative;
+  top: 2px;
   float: right;
-}
-
-#logo {
-  height: 52px;
-  width: 60px;
-  vertical-align: bottom;
   margin-right: 10px;
-  margin-left: 30px;
-  margin-top: 3px;
+}
+
+#home {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#info {
+  width: 700px;
+  margin-left: 5%;
   display: inline-block;
 }
 
-img {
-  vertical-align: bottom;
+#info h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+i {
+  font-style: italic;
+}
+
+p {
+  text-align: justify;
+  font-size: 16px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+#direcciones {
+  text-align: center;
+}
+
+#direcciones p {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#fotos {
+  width: 300px;
   display: inline-block;
+  vertical-align: top;
+  margin-left: 40px;
+}
+
+#fotos img {
+  width: 300px;
+  margin: 10px;
+  border-radius: 20px;
 }
