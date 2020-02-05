@@ -28,7 +28,7 @@
 
       <hr />
 
-      <div id="home">
+      <div id="home" hidden>
         <div id="info">
           <h2>¿Quiénes somos?</h2>
           <p>
@@ -75,6 +75,121 @@
           <img src="images/ham2.jpg" />
           <br />
           <img src="images/ham3.jpg" />
+        </div>
+      </div>
+
+      <div id="contacto" hidden>
+        <div id="texto">
+          <p>
+            Tus comentarios nos ayudan a crecer como organización. Podés
+            contactarte con nosotros llamando a nuestros locales o comunicándote
+            con nuestras oficinas.
+          </p>
+          <p>
+            También podés enviarnos un mensaje el cual será respondido a la
+            brevedad.
+          </p>
+
+          <h2>OFICINAS</h2>
+          <p>
+            Av. Colón 2504, piso 5.
+            <br />
+            Mar del Plata.
+            <br />
+            Teléfono: 223-461-3421
+          </p>
+          <p>
+            Rosas 2105, piso 2.
+            <br />
+            CABA.
+            <br />
+            Teléfono: 011-4513-2312
+          </p>
+          <p>
+            Libertador 2419.
+            <br />
+            Rosario.
+            <br />
+            Teléfono: 0341-465-2123
+          </p>
+        </div>
+        <form action="">
+          <label for="asunto">MOTIVO DE CONTACTO:</label>
+          <select id="asunto" name="asunto" required>
+            <option value="" selected disabled hidden
+              >Selecciona una opción</option
+            >
+            <option value="consulta">Consulta</option>
+            <option value="presupuesto">Presupuesto</option>
+            <option value="sugerencia">Sugerencia</option>
+            <option value="ofrecimiento">Ofrecimiento (proveedores)</option>
+          </select>
+          <label for="nombre">NOMBRE Y APELLIDO:</label>
+          <input type="text" required name="nombre">
+          <label for="mail">MAIL:</label>
+          <input type="email" required name="mail">
+          <label for="mensaje">MENSAJE:</label>
+          <textarea name="mensaje" required></textarea>
+          <button id="submit">ENVIAR</button>
+        </form>
+      </div>
+
+      <div id="menu">
+        <div class="menuItem">
+          <h2>Hamburguesa clásica</h2>
+          <h3>Pan, carne, tomate y lechuga.</h3>
+        </div>
+        <div class="menuItem">
+          <h2>Extras</h2>
+          <h3>Panceta</h3>
+          <hr>
+          <h3>Queso</h3>
+          <hr>
+          <h3>Jamón</h3>
+          <hr>
+          <h3>Huevo</h3>
+        </div>
+        <div class="menuItem">
+          <h2>Hamburguesa completa</h2>
+          <h3>Pan, carne, tomate, lechuga, panceta, queso,
+            huevo, cebolla y pepinillos.
+          </h3>
+        </div>
+        <div class="menuItem">
+          <h2>Combo completo</h2>
+          <h3>Hamburguesa completa + acompañamiento + gaseosa.</h3>
+        </div>
+        <div class="menuItem">
+          <h2>Combo niños</h2>
+          <h3>Hamburguesa con queso + acompañamiento + gaseosa.</h3>
+        </div>
+        <div class="menuItem">
+          <h2>Acompañamiento</h2>
+          <h3>Papas fritas</h3>
+          <hr>
+          <h3>Aros de cebolla</h3>
+          <hr>
+          <h3>Ensalada</h3>
+        </div>
+        <div class="menuItem">
+          <h2>Bebidas</h2>
+          <h3>Línea Coca-cola</h3>
+          <br>
+          <h3>Cerveza artesanal</h3>
+          <br>
+          <h3>Agua</h3>
+        </div>
+        <div class="menuItem">
+          <h2>Postres</h2>
+          <h3>Brownie</h3>
+          <hr>
+          <h3>Helado</h3>
+          <hr>
+          <h3>Porción de torta</h3>
+          <hr>
+          <h3>Mousse de chocolate</h3>
+          <hr>
+          <h3>Flan casero</h3>
         </div>
       </div>
 
