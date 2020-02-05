@@ -143,12 +143,6 @@ i {
   border-radius: 20px;
 }
 
-#home[hidden],
-#menu[hidden],
-#contact[hidden] {
-  display: none;
-}
-
 #contacto {
   margin-top: 25px;
   margin-bottom: 20px;
@@ -234,11 +228,11 @@ button:hover {
 }
 
 #menu {
-  background-color: white;
-  width: 901px;
+  width: 897px;
   margin: 20px auto;
   border-top: 1px solid black;
   border-left: 1px solid black;
+  background-color: white;
 }
 
 .menuItem {
