@@ -52,6 +52,7 @@ hr {
   width: 80%;
   background-color: black;
   border: thin solid black;
+  margin: 0 auto;
 }
 
 #footer {
@@ -97,7 +98,7 @@ hr {
 
 #info {
   width: 700px;
-  margin-left: 5%;
+  margin-left: 115px;
   display: inline-block;
 }
 
