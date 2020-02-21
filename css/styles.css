@@ -8,6 +8,13 @@ html {
 
 body {
   opacity: 1;
+  text-align: center;
+}
+
+#menu,
+#home,
+#contacto {
+  margin: 0 auto;
 }
 
 #logo {
@@ -99,7 +106,7 @@ hr {
 
 #info {
   width: 700px;
-  margin-left: 115px;
+  margin-left: 0;
   display: inline-block;
 }
 
@@ -137,24 +144,26 @@ i {
   width: 300px;
   display: inline-block;
   vertical-align: top;
-  margin-left: 40px;
+  padding-left: 40px;
 }
 
 #fotos img {
   width: 300px;
-  margin: 10px;
+  margin: 10px 0;
+  padding: 0 10px;
   border-radius: 20px;
 }
 
 #contacto {
   margin-top: 25px;
   margin-bottom: 20px;
-  margin-left: 120px;
+  margin-left: 0;
 }
 
 #texto {
   width: 450px;
   display: inline-block;
+  text-align: justify;
 }
 
 #contacto h2 {
@@ -173,7 +182,7 @@ i {
   display: inline-block;
   width: 500px;
   vertical-align: top;
-  margin-left: 50px;
+  padding-left: 50px;
 }
 
 label,
