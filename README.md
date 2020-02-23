@@ -1,1 +1,5 @@
-Creating a restaurant page using ES6 modules.
+Built with:
+
+JavaScript
+Webpack
+NPM
